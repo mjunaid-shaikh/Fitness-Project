@@ -1,0 +1,108 @@
+/* CSS Reset */
+body{
+    margin: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+    padding: 0;
+    background: url(/img/man-g889f52950_1920.jpg) no-repeat top center/cover ;
+    color: white;
+    /* background-repeat: no-repeat; */
+    display: block;
+    /* opacity: 0.5; */
+    
+}
+
+.left{
+/* border: 1px solid red; */
+display: inline-block;
+position: absolute;
+    left: 34px;
+    top: 9px;
+}
+.left img{
+    height: 28px;
+    width: 97px;
+    /* filter: invert(100%); ( to make image white to black) */
+}
+
+.mid{
+    /* border: 1px solid green; */
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 10px;
+}
+
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+    /* background-color: rgb(80, 80, 78); */
+}    
+
+.right{
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 12px;
+}
+.btn{
+    margin: 6px;
+    padding: 4px 14px;
+    color:  white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:'Baloo Bhaijaan 2', cursive;
+}
+.btn:hover{
+    background-color: rgb(180, 172, 172);
+    color: black;    
+
+}
+.container{
+    border: 2px solid red;
+    margin: 70px 40px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border-color: white;
+    text-align: center;
+    width: 24%;
+}
+.btnn{
+    align-items: center;
+    margin: auto;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    display: block;
+    width: 174px;
+    border-radius: 4px;
+    font-size: 16px;
+    /* padding: 1px 5px; */
+
+}
+.btnn:hover{
+    background-color: rgb(196, 191, 191);
+}
+.formgroup input{
+    font-family:'Baloo Bhaijaan 2', cursive;
+    display: block;
+    text-align: center;
+    width: 230px;
+    padding: 3px;
+    margin: 4px auto;
+    /* border: 2px solid black; */
+}
